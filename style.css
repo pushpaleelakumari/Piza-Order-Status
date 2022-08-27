@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin-top: 5px;
+    background-image: url(https://preview.redd.it/5vltlvdi2dqy.jpg?auto=webp&s=11b3f7edb856611608a3c710f8b6faf01e0e12c9);
+    background-size: cover; 
+    background-position: center;
+    height: 100%;
+    margin: 0;
+    background-size: 100%;
+    align-items: center !important;
+    text-align: center;
+    min-width: 100%;
+    /* color: rgba(255, 255, 0, 0.572); */
+}
+#s{
+    background-color: rgba(128, 128, 128, 0.579);
+    border-radius: 10px;
+}
+.container input{
+    padding: 10px; 
+    max-width: 90%;
+    border-radius: 20px;
+    background-color: rgba(128, 128, 128, 0.259);
+    box-shadow: 5px white;
+}
+.one {
+    width: 50px;
+    height: 50px;
+    opacity: 0;
+    align-items: center;
+    text-align: center;
+}
+.two {
+    width: 50px;
+    height: 50px;
+    opacity: 0;
+}
+.three {
+    width: 50px;
+    height: 50px;
+    opacity: 0;
+}
+.four {
+    width: 50px;
+    height: 50px;
+    opacity: 0;
+}
+.five {
+    width: 50px;
+    height: 50px;
+    opacity: 0;
+}
+.six {
+    width: 50px;
+    height: 50px;
+    opacity: 0;
+}
+.seven {
+    width: 50px;
+    height: 50px;
+    opacity: 0;
+}
+.eight {
+    width: 50px;
+    height: 50px;
+    opacity: 0;
+}
+.container button{
+    text-align: center;
+    padding:10px ;
+    border-radius: 10px;
+    width: 500px;
+}
+.madeby{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    background-color: gray;
+}
+@media only screen and (max-width: 600px){
+    .container button{
+        margin-top: 5px;
+        width: 300px;
+        font-size: 12px;
+    }
+    .madeby{
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+}
